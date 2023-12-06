@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "io.github.libxposed.api"
+    namespace = "io.github.libxpesed.api"
     compileSdk = 34
     buildToolsVersion = "34.0.0"
 
@@ -36,27 +36,27 @@ publishing {
     publications {
         register<MavenPublication>("api") {
             artifactId = "api"
-            group = "io.github.libxposed"
+            group = "io.github.libxpesed"
             version = "100"
             pom {
                 name.set("api")
                 description.set("Modern Xposed API")
-                url.set("https://github.com/libxposed/api")
+                url.set("https://github.com/libxpesed/api")
                 licenses {
                     license {
                         name.set("Apache License 2.0")
-                        url.set("https://github.com/libxposed/api/blob/master/LICENSE")
+                        url.set("https://github.com/libxpesed/api/blob/master/LICENSE")
                     }
                 }
                 developers {
                     developer {
-                        name.set("libxposed")
-                        url.set("https://libxposed.github.io")
+                        name.set("libxpesed")
+                        url.set("https://libxpesed.github.io")
                     }
                 }
                 scm {
-                    connection.set("scm:git:https://github.com/libxposed/api.git")
-                    url.set("https://github.com/libxposed/api")
+                    connection.set("scm:git:https://github.com/libxpesed/api.git")
+                    url.set("https://github.com/libxpesed/api")
                 }
             }
             afterEvaluate {
@@ -72,7 +72,7 @@ publishing {
         }
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/libxposed/api")
+            url = uri("https://maven.pkg.github.com/libxpesed/api")
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
