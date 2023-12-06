@@ -1,1 +1,1 @@
--keep class io.github.libxposed.** { *; }
+-keep class io.github.libxpesed.** { *; }

@@ -1,9 +1,9 @@
-package io.github.libxposed.lint
+package io.github.libxpesed.lint
 
 import com.android.tools.lint.client.api.IssueRegistry
 import com.android.tools.lint.detector.api.Issue
 
-class XposedIssueRegistry : IssueRegistry() {
+class XpesedIssueRegistry : IssueRegistry() {
     override val issues: List<Issue>
         get() = emptyList()
 }

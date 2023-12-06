@@ -1,4 +1,4 @@
-package io.github.libxposed.api.annotations;
+package io.github.libxpesed.api.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

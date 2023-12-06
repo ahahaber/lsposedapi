@@ -1,4 +1,4 @@
-package io.github.libxposed.api;
+package io.github.libxpesed.api;
 
 import android.content.pm.ApplicationInfo;
 import android.os.Build;

@@ -1,4 +1,4 @@
-package io.github.libxposed.api;
+package io.github.libxpesed.api;
 
 import android.content.SharedPreferences;
 import android.content.pm.ApplicationInfo;
@@ -15,17 +15,17 @@ import java.lang.reflect.Member;
 import java.lang.reflect.Method;
 import java.nio.ByteBuffer;
 
-import io.github.libxposed.api.annotations.AfterInvocation;
-import io.github.libxposed.api.annotations.BeforeInvocation;
-import io.github.libxposed.api.annotations.XposedHooker;
-import io.github.libxposed.api.errors.HookFailedError;
-import io.github.libxposed.api.utils.DexParser;
+import io.github.libxpesed.api.annotations.AfterInvocation;
+import io.github.libxpesed.api.annotations.BeforeInvocation;
+import io.github.libxpesed.api.annotations.XpesedHooker;
+import io.github.libxpesed.api.errors.HookFailedError;
+import io.github.libxpesed.api.utils.DexParser;
 
 /**
  * Xposed interface for modules to operate on application processes.
  */
 @SuppressWarnings("unused")
-public interface XposedInterface {
+public interface XpesedInterface {
     /**
      * SDK API version.
      */
@@ -166,7 +166,7 @@ public interface XposedInterface {
      * like the old API.
      *
      * <p>
-     * Classes implementing this interface should be annotated with {@link XposedHooker} and should provide
+     * Classes implementing this interface should be annotated with {@link XpesedHooker} and should provide
      * two public static methods that are annotated with {@link BeforeInvocation} and {@link AfterInvocation},
      * respectively.
      * </p>

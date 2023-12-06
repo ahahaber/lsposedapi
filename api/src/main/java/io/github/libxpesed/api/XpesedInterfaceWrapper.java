@@ -1,4 +1,4 @@
-package io.github.libxposed.api;
+package io.github.libxpesed.api;
 
 import android.content.SharedPreferences;
 import android.content.pm.ApplicationInfo;
@@ -14,16 +14,16 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.nio.ByteBuffer;
 
-import io.github.libxposed.api.utils.DexParser;
+import io.github.libxpesed.api.utils.DexParser;
 
 /**
- * Wrap of {@link XposedInterface} used by the modules for the purpose of shielding framework implementation details.
+ * Wrap of {@link XpesedInterface} used by the modules for the purpose of shielding framework implementation details.
  */
-public class XposedInterfaceWrapper implements XposedInterface {
+public class XpesedInterfaceWrapper implements XpesedInterface {
 
-    private final XposedInterface mBase;
+    private final XpesedInterface mBase;
 
-    XposedInterfaceWrapper(@NonNull XposedInterface base) {
+    XpesedInterfaceWrapper(@NonNull XpesedInterface base) {
         mBase = base;
     }
 
