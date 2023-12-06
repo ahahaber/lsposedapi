@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
  * Entry classes will be instantiated exactly once for each process.
  */
 @SuppressWarnings("unused")
-public abstract class XpesedModule extends XpesedInterfaceWrapper implements XposedModuleInterface {
+public abstract class XpesedModule extends XpesedInterfaceWrapper implements XpesedModuleInterface {
     /**
      * Instantiates a new Xposed module.<br/>
      * When the module is loaded into the target process, the constructor will be called.

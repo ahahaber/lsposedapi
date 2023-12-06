@@ -10,7 +10,7 @@ import androidx.annotation.RequiresApi;
  * Interface for module initialization.
  */
 @SuppressWarnings("unused")
-public interface XposedModuleInterface {
+public interface XpesedModuleInterface {
     /**
      * Wraps information about the process in which the module is loaded.
      */
